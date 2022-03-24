@@ -108,6 +108,14 @@ nav ul li a:hover {
   margin-top: 5px;
 }
 
+.img_banner {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: 10;
+  top: 300px;
+}
+
 #planes_btn, .btn_input {
   margin-top: 30px;
   text-transform: uppercase;
@@ -525,6 +533,7 @@ width: 100%;
   .contact_container .right {
     width: 100%;
     height: auto;
+    margin: 10px 0;
   }
   .wrapper_form {
     width: 100%;
@@ -538,4 +547,10 @@ width: 100%;
     width: 80vw;
   }
   .map_container {margin-left: 0!important; display: none;}
+  .img_banner {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+  }
 }
